@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Penguencer</title>
+    <link>https://penguencer.github.io/</link>
+    <description>Recent content on Penguencer</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://penguencer.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hakkımızda</title>
+      <link>https://penguencer.github.io/hakkimizda/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://penguencer.github.io/hakkimizda/</guid>
+      <description>Penguencer, GNU/Linux ve özgür yazılım dünyası ile ilgili içerikler üreten bir açık platformdur.
+Bağlantılar GitHub
+RSS
+Sorumluluk Reddi Bu web sitesinde yer alan bilgiler, herhangi bir garanti olmaksızın olduğu gibi sağlanmaktadır ve hiçbir hak vermemektedir. Yapacağınız işlemlerden yalnızca siz sorumlu olursunuz.
+Gizlilik Politikası GitHub Pages Bu web site, GitHub Pages olarak barındırılmaktadır. GitHub, ziyaretçilerin IP adreslerinin kaydı da dahil olmak üzere türlü bilgiler toplayabilir. Detaylar için GitHub gizlilik politikası sayfasına göz atabilirsiniz.</description>
+    </item>
+    
+  </channel>
+</rss>

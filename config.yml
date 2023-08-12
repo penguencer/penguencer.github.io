@@ -1,3 +1,145 @@
-baseURL: http://example.org/
-languageCode: en-us
-title: My New Hugo Site
+baseURL: https://penguencer.github.io/
+title: "Penguencer"
+paginate: 10
+theme: "PaperMod"
+canonifyURLs: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+ShowFullTextinRSS: true
+enableEmoji: true
+defaultContentLanguage: tr
+publishDir: docs
+permalinks:
+  posts: '/:filename/'
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  homeInfoParams:
+    Title: Penguencer
+    Content: 🐧 GNU/Linux odaklı Türkçe özgür yazılım platformu. 🇹🇷
+  env: production
+  title: "Penguencer"
+  description: "🐧 GNU/Linux odaklı Türkçe özgür yazılım platformu. 🇹🇷"
+  author: ['Furkan Uysal','Hüseyin Pala']
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: false
+  ShowCodeCopyButtons: true
+  ShowWordCount: false
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: false
+  disableSpecial1stPost: true
+  disableScrollToTop: true
+  comments: true
+  hidemeta: false
+  hideSummary: true
+  ShowToc: true
+  TocOpen: true
+  enableGitInfo: true
+  ShowLastMod: true
+  assets:
+    disableHLJS: false # to disable highlight.js
+    disableFingerprinting: true
+    favicon: "/assets/img/favicon.ico"
+    favicon16x16: "/assets/img/favicon-16x16.png"
+    favicon32x32: "/assets/img/favicon-32x32.png"
+    apple_touch_icon: "/assets/img/apple-touch-icon.png"
+    safari_pinned_tab: "/assets/img/favicon-32x32.png"
+    theme_color: "#292f33"
+    msapplication_TileColor: "#292f33"
+
+  label:
+    text: "Penguencer"
+    icon: "/assets/img/logo.png"
+    iconHeight: 35
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/penguencer"
+    # - name: mastodon
+    #   url: "https://mastodon.social/@"
+    # - name: twitter
+    #   url: "https://twitter.com/"
+    - name: RSS
+      url: "/index.xml"
+
+  # analytics:
+  #   google:
+  #     SiteVerificationTag: ""
+
+  cover:
+    hidden: false # hide everywhere but not in structured data
+    hiddenInList: false # hide on list pages and home
+    hiddenInSingle: false # hide on single page
+    relative: true # To use relative path for cover image, used in hugo Page-bundles
+    linkFullImages: true
+
+  editPost:
+    URL: "https://github.com/penguencer/penguencer.github.io/tree/main/content"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
+
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    ignoreLocation: true
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+menu:
+  main:
+    - identifier: yazilar
+      name: 📰 Yazılar
+      url: /posts/
+      weight: 10
+    - identifier: kategoriler
+      name: 📚 Kategoriler
+      url: /categories/
+      weight: 20
+    - identifier: arsiv
+      name: 🗂️ Arşiv
+      url: /arsiv/
+      weight: 30
+    - identifier: hakkimizda
+      name: 🧑‍💻 Hakkımızda
+      url: /hakkimizda/
+      weight: 40
+    - identifier: ara
+      name: 🔍 Ara
+      url: /arama/
+      weight: 50
+    
+# privacy:
+#   disqus:
+#     disable: true
+#   googleAnalytics:
+#     disable: true
+#   instagram:
+#     disable: true
+#   twitter:
+#     disable: true
+#   vimeo:
+#     disable: true
+#   youtube:
+#     disable: true
+
